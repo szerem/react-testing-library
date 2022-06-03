@@ -1,7 +1,6 @@
-# step by step 
+# step by step
 
-npm test 
-
+npm test
 
 https://www.w3.org/TR/wai-aria/#role_definitions
 
@@ -13,3 +12,15 @@ https://github.com/testing-library/eslint-plugin-testing-library
 https://github.com/testing-library/eslint-plugin-jest-dom
 
 npm install eslint-plugin-testing-library eslint-plugin-jest-dom
+
+# sundaes-on-demand
+
+npx create-react-app sundaes-on-demand
+npm install eslint-plugin-testing-library eslint-plugin-jest-dom
+
+remove eslintConfig from package.json
+create .eslintrc.json add
+
+# other frameworks
+
+https://chakra-ui.com/
