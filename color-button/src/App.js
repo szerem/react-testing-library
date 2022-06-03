@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { replaceCamelWithSpaces } from "./Utils";
 
 function App() {
   const [buttonColor, setButtonColor] = useState("red");
@@ -12,7 +13,7 @@ function App() {
         onClick={() => setButtonColor(newButtonColor)}
         disabled={disabled}
       >
-        Change to {newButtonColor}
+        Change to {replaceCamelWithSpaces(newButtonColor)}
       </button>
 
       <input
